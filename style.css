@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(rgb(0, 0, 0), rgb(18, 37, 60));
+
+
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    margin-top: 0rem;
+    color: rgb(169, 223, 223);
+    overflow: hidden;
+}
+
+h3 {
+    font-size: 3rem;
+    margin-top: 10rem;
+    margin-left: 12rem;
+    font-weight: 500;
+}
+
+h1 {
+    margin-top: 1rem;
+    margin-left: 12rem;
+    /* font-size: transparent; */
+
+    color: transparent;
+    font-size: 5rem;
+    -webkit-text-stroke: .05rem rgb(169, 223, 223);
+}
+
+p {
+    margin-top: 1rem;
+    margin-left: 12rem;
+}
+
+#form {
+    margin-left: 12rem;
+    margin-top: 1rem;
+    color: aliceblue;
+    height: 3rem;
+    width: 25rem;
+    display: flex;
+    /* background-color: rgb(118, 232, 232); */
+    justify-content: space-between;
+}
+
+#form input {
+    font-size: 20px;
+    flex: 1;
+    outline: none;
+    border: none;
+    background-color: rgba(14, 45, 76, 0.411);
+    opacity: 1;
+    padding: 10px;
+    color: rgb(169, 223, 223);
+}
+
+#form button {
+    opacity: 1;
+    font-size: 20px;
+    width: 4rem;
+    border: none;
+    outline: none
+}
+
+#form button:hover {
+    opacity: 0.4;
+    font-size: 1.5rem;
+}
